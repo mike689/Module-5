@@ -1,0 +1,29 @@
+body {
+    background-color: #99FFCC;
+}
+#cust {
+visibility: hidden;
+position: absolute;
+left: 50%;
+margin-left: -300px;
+width: 600px;
+text-align: center;
+}
+#hist {
+visibility: hidden;
+position: absolute;
+left: 50%;
+margin-left: -300px;
+width: 600px;
+text-align: center;
+}
+#orders {
+visibility: hidden;
+position: absolute;
+left: 50%;
+margin-left: -300px;
+width: 600px;
+text-align: center;
+}
+h1{text-align: center;}
+#top {text-align: center;}

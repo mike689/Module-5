@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title>Module 5</title>
+    <link rel="stylesheet" type="text/css" href="styles/Assignment5.css" />
+    <script src="js/Assignment5.js"></script>
+</head>
+
+<body>
+    <div id = "top">
+    <h1>Module 5</h1>
+    <br>
+    <select id="menu" onchange="MenuSelection()">
+        <option>Select an option:</option>
+        <option>Customer List</option>
+        <option>Order History</option>
+        <option>View Customer Orders</option>
+    </select>
+    <hr>
+    </div>        
+        <section id="cust">
+            <br>
+            <button onclick="CustDatabase()" id="cdata">Generate Customer List</button>
+            <br>
+            <div id="table"></div>
+            <label id="customers"></label>
+        </section>
+        <section id="hist">
+            <br>
+            <label>Enter Customer ID for Order History:</label>
+            <input type="text" id="custid">
+            <br>
+            <br>
+            <button onclick="GetHist()" id="custhist">Generate History</button>
+            <br>
+            <br>
+            <div id="table2"></div>
+        </section>
+        <section id="orders">
+            <br>
+            <label>Enter Customer ID for Current Orders:</label>
+            <input type="text" id="custid2">
+            <br>
+            <br>
+            <button onclick="GetOrders()" id="custorders">Generate Orders</button>
+            <br>
+            <br>
+            <div id="table3"></div>
+        </section>
+        
+</body>
+</html>
